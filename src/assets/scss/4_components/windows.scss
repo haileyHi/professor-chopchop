@@ -1,0 +1,70 @@
+.rank-top {
+  margin: 20px 16px 8px 16px;
+  width: 328px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  vertical-align: middle;
+}
+
+.rank-detail-container {
+  display: flex;
+  margin: 0 16px 20px 16px;
+  width: 328px;
+}
+
+.rank-rec {
+  border-radius: 10px;
+}
+
+.food-title {
+  width: 201px;
+  display: inline-block;
+  float: right;
+  font-size: 24px;
+  margin: auto;
+  text-align: center;
+  line-height: 44px;
+  align-items: center;
+  /*border-radius: 0 10px 10px 0;*/
+}
+
+.prev-rank {
+  background-color: white;
+  width: 119px;
+  line-height: 44px;
+  font-size: 28px;
+  text-align: center;
+  align-items: center;
+  margin: 0 8px 0 0;
+}
+
+// 메인 화면 참여자 수
+.order-count {
+  background-color: white;
+  width: 201px;
+  line-height: 44px;
+  text-align: right;
+  align-items: center;
+  font-size: 28px;
+  line-height: 44px;
+  padding: 0 8px;
+}
+
+// 카테고리 선택 화면 상단 닉네임.
+.order-top-window {
+  padding: 60px 30px;
+}
+
+.order-category-window {
+  // 위치
+  position: relative;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  // 그림자
+  box-shadow: 0px -3px 15px #707157;
+  border-radius: 40px 40px 0 0;
+  background-color: #f9f9f9;
+  padding: 30px 30px 33px 30px;
+}
