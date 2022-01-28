@@ -1,0 +1,73 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css");
+
+* {
+  font-family: "Pretendard";
+}
+
+.main-button {
+  font-weight: 700;
+  font-size: 1.8em;
+  text-align: center;
+  padding: 12px 24px;
+  margin: 10px 0px;
+  border: none;
+  text-decoration: none;
+  width: 290px;
+  height: 58px;
+}
+
+.green-button {
+  background: #41d061;
+  color: black;
+}
+
+.black-button {
+  background: black;
+  color: white;
+}
+
+.black-background {
+  background-color: black;
+}
+
+.title-white {
+  color: white;
+  font-size: 4em;
+  font-weight: 700;
+}
+
+.tag-black-font {
+  color: black;
+  background-color: white;
+  height: 72px;
+  border-radius: 40px;
+  padding: 0 12px;
+}
+
+.text-spread {
+  text-align: center;
+}
+
+.menu-background {
+  background-color: black;
+}
+
+.menu-item {
+  color: white;
+  size: 32px;
+  font-weight: 700;
+  font-size: 32px;
+  padding: 10%;
+}
+
+.display-table {
+  display: table;
+}
+
+.item-center-horizontal {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  text-align: center;
+  display: table-cell;
+}

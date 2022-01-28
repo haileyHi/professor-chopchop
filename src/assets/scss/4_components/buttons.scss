@@ -1,0 +1,91 @@
+.main-button {
+  font-weight: 700;
+  font-size: 1.25em;
+  text-align: center;
+  padding: 12px 24px;
+  margin: 10px 0px;
+  border: none;
+  text-decoration: none;
+  width: 290px;
+  height: 58px;
+  border-radius: 10px;
+}
+
+.green-button {
+  background: #41d061;
+  color: black;
+}
+
+.black-button {
+  background: black;
+  color: white;
+}
+
+.intro-home-button {
+  width: 290px;
+  height: 58px;
+  background-color: white;
+  border-radius: 10px;
+  border: 0;
+  font-size: 1.25em;
+  font-weight: 400;
+}
+
+.intro-home-button a {
+  text-decoration: none;
+  color: black;
+}
+
+.icon-cart {
+  width: 64px;
+  height: 64px;
+  position: fixed;
+  right: 32px;
+  bottom: 36px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.icon-back {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  position: fixed;
+  left: 32px;
+  bottom: 36px;
+  background-color: #ffe600;
+  // 가운데 정렬 용
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-float-button {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  border-radius: 50%;
+  background-color: white;
+  width: 64px;
+  height: 64px;
+  justify-content: center;
+  text-align: center;
+}
+
+.rank-float-button {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  border-radius: 50%;
+  background-color: #ffe600;
+  width: 64px;
+  height: 64px;
+  justify-content: center;
+  text-align: center;
+}
