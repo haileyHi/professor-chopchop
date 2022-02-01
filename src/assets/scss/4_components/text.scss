@@ -1,0 +1,51 @@
+.order-top-nickname {
+  font-weight: 700;
+  max-width: 55vw;
+  float: left;
+}
+
+.order-top-title {
+  font-weight: 400;
+  font-size: 1.75em;
+  text-align: left;
+}
+
+.order-top-guide {
+  display: flex;
+  align-items: flex-end;
+}
+
+.order-top-detail {
+  margin-top: 12px;
+  text-align: left;
+}
+
+.description {
+  font-size: 1em;
+  color: #a4a4a4;
+}
+
+// 카트 텍스트
+.cart-text {
+  font-size: 1.75em;
+  font-weight: 400;
+  color: black;
+  text-align: left;
+}
+
+.icon-text-black {
+  font-size: 2em;
+  color: black;
+  font-weight: 500;
+}
+
+.cart-menu-name {
+  background: #ffffff;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  width: 224px;
+  text-align: left;
+  padding: 7px 17px;
+  font-weight: 400;
+  font-size: 1.25em;
+}
